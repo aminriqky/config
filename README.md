@@ -3,3 +3,4 @@
 - MPV
 - Neovim
 - Yuzu
+- NixOS Config
