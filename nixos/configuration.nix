@@ -25,32 +25,32 @@ let
     MINSTART=hwmon4/device/pwm1=150
     MINSTOP=hwmon4/device/pwm1=0
   '';
-  #nbfc = pkgs.stdenv.mkDerivation {
-  #  name = "nbfc-linux";
-  #  version = "0.1.6";
+  nbfc = pkgs.stdenv.mkDerivation {
+    name = "nbfc-linux";
+    version = "0.1.7";
 
-  #  src  = pkgs.fetchFromGitHub {
-  #    owner  = "nbfc-linux";
-  #    repo   = "nbfc-linux";
-  #    rev    = "4c2b75e4a875459e86a9892319889ff945e9cadf";
-  #    sha256 = "UxaL4V8FkA+eONCj7vTHAlRSJxoXqRB2aW7A/KJyvlY=";
-  #  };
+    src  = pkgs.fetchFromGitHub {
+      owner  = "nbfc-linux";
+      repo   = "nbfc-linux";
+      rev    = "4c2b75e4a875459e86a9892319889ff945e9cadf";
+      sha256 = "UxaL4V8FkA+eONCj7vTHAlRSJxoXqRB2aW7A/KJyvlY=";
+    };
 
-  #  buildFlags = [ "PREFIX=$(out)" "confdir=/etc" ];
+    buildFlags = [ "PREFIX=$(out)" "confdir=/etc" ];
 
-  #  installPhase =
-  #    let
-  #      installFlags = [ "PREFIX=$out" ];
-  #    in
-  #    ''
-  #      make ${builtins.concatStringsSep " " installFlags}\
-  #           install-core \
-  #           install-client-c\
-  #           install-configs\
-  #           install-docs\
-  #           install-completion
-  #    '';
-  #};
+    installPhase =
+      let
+        installFlags = [ "PREFIX=$out" ];
+      in
+      ''
+        make ${builtins.concatStringsSep " " installFlags}\
+             install-core \
+             install-client-c\
+             install-configs\
+             install-docs\
+             install-completion
+      '';
+  };
 in
 {
   imports =
@@ -92,19 +92,15 @@ in
   };
 
   nix.settings.auto-optimise-store = true;
-
-  #systemd.services.nbfc_service = {
-  #  enable = true;
-  #  description = "NoteBook FanControl service";
-  #  unitConfig = {
-  #    Type = "simple";
-  #  };
-  #  serviceConfig = {
-  #    ExecStartPre = "${nbfc}/bin/nbfc_service -c '${nbfc}/share/nbfc/configs/Acer Nitro AN515-51.json'";
-  #    ExecStart = "${nbfc}/bin/nbfc start";
-  #  };
-  #  wantedBy = [ "multi-user.target" ];
-  #};
+   systemd.services.nbfc_service = {
+    enable = true;
+    description = "NoteBook FanControl service";
+    serviceConfig.Type = "simple"; #related upstream config: https://github.com/nbfc-linux/nbfc-linux/blob/main/etc/systemd/system/nbfc_service.service.in
+    path = [ pkgs.kmod ];
+    script = let package = nbfc.packages.${pkgs.system}.nbfc; in "${package}/${command}"; #for fetchFromGitHub
+    # script = "/home/${myUser}/.nix-profile/${command}"; #for flake
+    wantedBy = [ "multi-user.target" ];
+  };
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
