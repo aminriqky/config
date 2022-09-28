@@ -92,7 +92,8 @@ in
   };
 
   nix.settings.auto-optimise-store = true;
-   systemd.services.nbfc_service = {
+  
+  systemd.services.nbfc_service = {
     enable = true;
     description = "NoteBook FanControl service";
     serviceConfig.Type = "simple"; #related upstream config: https://github.com/nbfc-linux/nbfc-linux/blob/main/etc/systemd/system/nbfc_service.service.in
