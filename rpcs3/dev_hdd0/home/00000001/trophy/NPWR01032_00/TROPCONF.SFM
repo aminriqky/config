@@ -1,0 +1,228 @@
+<!--Sce-Np-Trophy-Signature: 4c39b98c010000000000000066912a58bc79993a0ecd1fd84aee767ddbd0703a054a8a0c33f55df6abee8d73bb2ff979370dc2bd8c264962c03f6eb8f633c0d67858099b2647e6edfc9cb81c5620616ce989432abceaad5462ed89267703ffd35ec0a3d1a1fd16099779cbfdebc341413d5dc6e103f775a381a64923dbc39cdb4eaf059e943879fa3c8974babb71fdc806d9aa0e9398809febdb8fded0a79fac-->
+<trophyconf version="1.1">
+ <npcommid>NPWR01032_00</npcommid>
+ <trophyset-version>01.01</trophyset-version>
+ <parental-level license-area="default">0</parental-level>
+ <title-name>Sengoku BASARA: Samurai Heroes</title-name>
+ <title-detail>Sengoku BASARA: Samurai Heroes TROPHY SET</title-detail>
+ <trophy id="000" hidden="yes" ttype="P" pid="-1">
+  <name>Samurai Hero</name>
+  <detail>Acquire all Trophies in the game.</detail>
+ </trophy>
+ <trophy id="001" hidden="no" ttype="B" pid="000">
+  <name>Eastern Savior</name>
+  <detail>Complete Heroes' Story with Ieyasu Tokugawa.</detail>
+ </trophy>
+ <trophy id="002" hidden="no" ttype="B" pid="000">
+  <name>Seeker of Vengeance</name>
+  <detail>Complete Heroes' Story with Mitsunari Ishida.</detail>
+ </trophy>
+ <trophy id="003" hidden="yes" ttype="B" pid="000">
+  <name>Sky Watcher</name>
+  <detail>Complete Heroes' Story with Yoshitsugu Otani.</detail>
+ </trophy>
+ <trophy id="004" hidden="no" ttype="B" pid="000">
+  <name>Bird of Paradise</name>
+  <detail>Complete Heroes' Story with Magoichi Saica.</detail>
+ </trophy>
+ <trophy id="005" hidden="no" ttype="B" pid="000">
+  <name>Inadequate Tactician</name>
+  <detail>Complete Heroes' Story with Kanbe Kuroda.</detail>
+ </trophy>
+ <trophy id="006" hidden="yes" ttype="B" pid="000">
+  <name>Innocent Dreamer</name>
+  <detail>Complete Heroes' Story with Tsuruhime.</detail>
+ </trophy>
+ <trophy id="007" hidden="no" ttype="B" pid="000">
+  <name>Chief of Oshu</name>
+  <detail>Complete Heroes' Story with Masamune Date.</detail>
+ </trophy>
+ <trophy id="008" hidden="no" ttype="B" pid="000">
+  <name>Spear of Divine Rule</name>
+  <detail>Complete Heroes' Story with Yukimura Sanada.</detail>
+ </trophy>
+ <trophy id="009" hidden="yes" ttype="B" pid="000">
+  <name>Vagabond</name>
+  <detail>Complete Heroes' Story with Keiji Maeda.</detail>
+ </trophy>
+ <trophy id="010" hidden="yes" ttype="B" pid="000">
+  <name>King of the Seas</name>
+  <detail>Complete Heroes' Story with Motochika Chosokabe.</detail>
+ </trophy>
+ <trophy id="011" hidden="yes" ttype="B" pid="000">
+  <name>Tactful Leader</name>
+  <detail>Complete Heroes' Story with Motonari Mori.</detail>
+ </trophy>
+ <trophy id="012" hidden="yes" ttype="B" pid="000">
+  <name>Beast</name>
+  <detail>Complete Heroes' Story with Yoshihiro Shimazu.</detail>
+ </trophy>
+ <trophy id="013" hidden="yes" ttype="B" pid="000">
+  <name>Mighty Samurai</name>
+  <detail>Complete Heroes' Story with Tadakatsu Honda.</detail>
+ </trophy>
+ <trophy id="014" hidden="yes" ttype="B" pid="000">
+  <name>Wind Rider</name>
+  <detail>Complete Heroes' Story with Kotaro Fuma.</detail>
+ </trophy>
+ <trophy id="015" hidden="yes" ttype="B" pid="000">
+  <name>Night Whisperer</name>
+  <detail>Complete Heroes' Story with Oichi.</detail>
+ </trophy>
+ <trophy id="016" hidden="yes" ttype="B" pid="000">
+  <name>Demon King</name>
+  <detail>Complete Heroes' Story with Nobunaga Oda.</detail>
+ </trophy>
+ <trophy id="017" hidden="no" ttype="B" pid="000">
+  <name>Humble Samurai</name>
+  <detail>Complete Heroes' Story on Easy difficulty.</detail>
+ </trophy>
+ <trophy id="018" hidden="no" ttype="B" pid="000">
+  <name>Proud Daimyo</name>
+  <detail>Complete Heroes' Story on Normal difficulty.</detail>
+ </trophy>
+ <trophy id="019" hidden="yes" ttype="B" pid="000">
+  <name>Fearless Shogun</name>
+  <detail>Complete Heroes' Story on Hard difficulty.</detail>
+ </trophy>
+ <trophy id="020" hidden="yes" ttype="B" pid="000">
+  <name>Complete Victor</name>
+  <detail>Complete Heroes' Story with all of the heroes.</detail>
+ </trophy>
+ <trophy id="021" hidden="yes" ttype="B" pid="000">
+  <name>Smooth Operator</name>
+  <detail>Complete Heroes' Story while taking no damage in at least one battle.</detail>
+ </trophy>
+ <trophy id="022" hidden="yes" ttype="S" pid="000">
+  <name>Man of Morals</name>
+  <detail>Complete Heroes' Story while defeating less than 100 enemies.</detail>
+ </trophy>
+ <trophy id="023" hidden="yes" ttype="B" pid="000">
+  <name>Army Annihilator</name>
+  <detail>Complete Heroes' Story while defeating over 5,000 enemies.</detail>
+ </trophy>
+ <trophy id="024" hidden="yes" ttype="B" pid="000">
+  <name>Frenzied Fighter</name>
+  <detail>Complete Heroes' Story while performing a combo of 500 hits or higher.</detail>
+ </trophy>
+ <trophy id="025" hidden="yes" ttype="S" pid="000">
+  <name>Better Than the Best</name>
+  <detail>Complete Heroes' Story on Hard while not equipping accessories on your default weapon.</detail>
+ </trophy>
+ <trophy id="026" hidden="yes" ttype="B" pid="000">
+  <name>One Trick Samurai</name>
+  <detail>Complete Heroes' Story while using only Normal Art combos in at least one battle.</detail>
+ </trophy>
+ <trophy id="027" hidden="yes" ttype="B" pid="000">
+  <name>One Trick Shogun</name>
+  <detail>Complete Heroes' Story while using only  BASARA/Ultimate BASARA Arts in at least one battle.</detail>
+ </trophy>
+ <trophy id="028" hidden="yes" ttype="B" pid="000">
+  <name>BASARA Freak</name>
+  <detail>Complete Heroes' Story while finishing every battle with BASARA/Ultimate BASARA Arts.</detail>
+ </trophy>
+ <trophy id="029" hidden="yes" ttype="B" pid="000">
+  <name>Singing Samurai</name>
+  <detail>Have either "Lute" or "Koto" equipped for a whole battle.</detail>
+ </trophy>
+ <trophy id="030" hidden="yes" ttype="B" pid="000">
+  <name>BASARA Fan</name>
+  <detail>Finish a battle with a BASARA/Ultimate BASARA Art.</detail>
+ </trophy>
+ <trophy id="031" hidden="yes" ttype="B" pid="000">
+  <name>Comeback Kid</name>
+  <detail>Finish a battle with an Ultimate BASARA Art while your health is low (5,000 health points or less).</detail>
+ </trophy>
+ <trophy id="032" hidden="yes" ttype="B" pid="000">
+  <name>Hawk Eye</name>
+  <detail>Finish a battle with a parry.</detail>
+ </trophy>
+ <trophy id="033" hidden="yes" ttype="B" pid="000">
+  <name>Frenzy n00b</name>
+  <detail>Perform a 500 hit combo for the first time.</detail>
+ </trophy>
+ <trophy id="034" hidden="yes" ttype="B" pid="000">
+  <name>Combo Master</name>
+  <detail>Perform a 2,000 hit combo for the first time.</detail>
+ </trophy>
+ <trophy id="035" hidden="yes" ttype="B" pid="000">
+  <name>Hit Count Hero</name>
+  <detail>Perform a 10,000 hit combo for the first time.</detail>
+ </trophy>
+ <trophy id="036" hidden="yes" ttype="B" pid="000">
+  <name>Beloved General</name>
+  <detail>Have "Support Beam" equipped for a whole battle.</detail>
+ </trophy>
+ <trophy id="037" hidden="yes" ttype="B" pid="000">
+  <name>Sideline General</name>
+  <detail>Have "Hairs of Encouragement" equipped for a whole battle.</detail>
+ </trophy>
+ <trophy id="038" hidden="yes" ttype="B" pid="000">
+  <name>Slots Samurai</name>
+  <detail>Have "Big Bucks Wallet" equipped for a whole battle.</detail>
+ </trophy>
+ <trophy id="039" hidden="yes" ttype="B" pid="000">
+  <name>Peaceful Soul</name>
+  <detail>Have "Sunglasses" equipped for a whole battle.</detail>
+ </trophy>
+ <trophy id="040" hidden="yes" ttype="B" pid="000">
+  <name>Horseman</name>
+  <detail>Finish a battle on horseback.</detail>
+ </trophy>
+ <trophy id="041" hidden="yes" ttype="B" pid="000">
+  <name>Gourmet Shogun</name>
+  <detail>Finish a battle after eating 25 rice balls.</detail>
+ </trophy>
+ <trophy id="042" hidden="yes" ttype="B" pid="000">
+  <name>Steel Liver Samurai</name>
+  <detail>Finish a battle after drinking 15 drinks.</detail>
+ </trophy>
+ <trophy id="043" hidden="yes" ttype="B" pid="000">
+  <name>Treasure Hunter</name>
+  <detail>Acquire a combination of 24 or more hatena boxes and weapons from one battle.</detail>
+ </trophy>
+ <trophy id="044" hidden="yes" ttype="B" pid="000">
+  <name>Considerate Commander</name>
+  <detail>Finish a battle without breaking a single basket.</detail>
+ </trophy>
+ <trophy id="045" hidden="yes" ttype="G" pid="000">
+  <name>Good Parent</name>
+  <detail>Level up every hero to their maximum level.</detail>
+ </trophy>
+ <trophy id="046" hidden="yes" ttype="B" pid="000">
+  <name>Lover of the Fight</name>
+  <detail>Complete all 38 battles.</detail>
+ </trophy>
+ <trophy id="047" hidden="yes" ttype="B" pid="000">
+  <name>100 Hour Hero</name>
+  <detail>Play for 100 hours.</detail>
+ </trophy>
+ <trophy id="048" hidden="yes" ttype="B" pid="000">
+  <name>War Vet</name>
+  <detail>Complete 100 battles.</detail>
+ </trophy>
+ <trophy id="049" hidden="yes" ttype="S" pid="000">
+  <name>Millionaire</name>
+  <detail>Reach a balance of 1,000,000 Zennys.</detail>
+ </trophy>
+ <trophy id="050" hidden="yes" ttype="S" pid="000">
+  <name>Weapon Retailer</name>
+  <detail>Acquire every weapon in the game.</detail>
+ </trophy>
+ <trophy id="051" hidden="yes" ttype="S" pid="000">
+  <name>Bounty Hunter</name>
+  <detail>KO every fugitive with a single hero.</detail>
+ </trophy>
+ <trophy id="052" hidden="yes" ttype="G" pid="000">
+  <name>Good Friend</name>
+  <detail>Recruit every ally.</detail>
+ </trophy>
+ <trophy id="053" hidden="yes" ttype="B" pid="000">
+  <name>Pack Rat</name>
+  <detail>Acquire every material.</detail>
+ </trophy>
+ <trophy id="054" hidden="yes" ttype="S" pid="000">
+  <name>Fashionista</name>
+  <detail>Acquire every accessory.</detail>
+ </trophy>
+</trophyconf>
